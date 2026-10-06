@@ -1,5 +1,8 @@
 # Bug-fix Showcase — Stale closure in a realtime subscription
 
+**Live Demo:** [https://bugfix-showcase.vercel.app](https://bugfix-showcase.vercel.app)
+
+
 A documented bug-fix case study: a React component subscribing to a realtime data source contains a realistic **stale closure** bug in `useEffect`, so the UI doesn't reflect subscription updates. The repo includes the broken version, the fixed version, a live side-by-side demo, and a professional write-up.
 
 > Screenshots: add `screenshots/demo.png` here after deploying.
